@@ -1,0 +1,24 @@
+{
+  "numeric_features": [
+    "driver_age",
+    "vehicle_age",
+    "contract_tenure",
+    "puissance",
+    "bonus_malus",
+    "city_risk_tier"
+  ],
+  "categorical_features": [
+    "lib_usage"
+  ],
+  "target": "premium_sim (documented simulated target, see notebook 02)",
+  "best_params": {
+    "model__subsample": 0.85,
+    "model__n_estimators": 300,
+    "model__max_depth": 4,
+    "model__learning_rate": 0.03,
+    "model__colsample_bytree": 0.85
+  },
+  "test_r2": 0.6220132869393296,
+  "test_mae": 60.91604385420815,
+  "test_rmse": 79.97948767885406
+}

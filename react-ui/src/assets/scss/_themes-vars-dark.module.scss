@@ -1,0 +1,102 @@
+// paper & background (dark surfaces)
+$paper: #1b1d27;
+
+// primary (Keyrus cyan, re-tuned for dark backgrounds)
+$primaryLight: #12313a;
+$primaryMain: #2dcfff;
+$primaryDark: #7ee3ff;
+$primary200: #4bb8d9;
+$primary800: #8fe6ff;
+
+// secondary (Keyrus orange)
+$secondaryLight: #3a2a12;
+$secondaryMain: #fc990f;
+$secondaryDark: #ffc46b;
+$secondary200: #c97800;
+$secondary800: #ffc46b;
+
+// success Colors
+$successLight: #163325;
+$success200: #4f8f72;
+$successMain: #2e9e6d;
+$successDark: #6fd8ab;
+
+// error (Keyrus red)
+$errorLight: #3a1218;
+$errorMain: #f23a5c;
+$errorDark: #ff8095;
+
+// orange
+$orangeLight: #3a2a12;
+$orangeMain: #fc990f;
+$orangeDark: #ffc46b;
+
+// warning
+$warningLight: #3a2f12;
+$warningMain: #ffc74f;
+$warningDark: #ffdb96;
+
+// grey (roles inverted from the light palette: 900/700 are near-white text,
+// 50/100/200/300/400 are dark near-paper surfaces used for hover/dividers/borders)
+$grey50: #21232f;
+$grey100: #262835;
+$grey200: #2f3240;
+$grey300: #3a3e4d;
+$grey400: #4a4f60;
+$grey500: #98a2b3;
+$grey600: #c3c8d1;
+$grey700: #e7eaf0;
+$grey900: #f5f7fa;
+
+//-----------------------|| JAVASCRIPT ||-----------------------//
+
+:export {
+    // paper & background
+    paper: $paper;
+
+    // primary
+    primaryLight: $primaryLight;
+    primary200: $primary200;
+    primaryMain: $primaryMain;
+    primaryDark: $primaryDark;
+    primary800: $primary800;
+
+    // secondary
+    secondaryLight: $secondaryLight;
+    secondary200: $secondary200;
+    secondaryMain: $secondaryMain;
+    secondaryDark: $secondaryDark;
+    secondary800: $secondary800;
+
+    // success
+    successLight: $successLight;
+    success200: $success200;
+    successMain: $successMain;
+    successDark: $successDark;
+
+    // error
+    errorLight: $errorLight;
+    errorMain: $errorMain;
+    errorDark: $errorDark;
+
+    // orange
+    orangeLight: $orangeLight;
+    orangeMain: $orangeMain;
+    orangeDark: $orangeDark;
+
+    // warning
+    warningLight: $warningLight;
+    warningMain: $warningMain;
+    warningDark: $warningDark;
+
+    // grey
+    grey50: $grey50;
+    grey100: $grey100;
+    grey200: $grey200;
+    grey300: $grey300;
+    grey400: $grey400;
+    grey500: $grey500;
+    grey600: $grey600;
+    grey700: $grey700;
+    grey900: $grey900;
+}
